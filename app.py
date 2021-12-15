@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.get('/')
 def home():
-    return {"data":"Hello Flask"}, 200
+    return {"data":"Hello Flask!"}, 200
 
 @app.get('/current_datetime')
 def current_datetime():
